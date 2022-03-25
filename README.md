@@ -1,6 +1,5 @@
-# DataBase Assessment
-### IMPORTANT: if the initial root directory contain bad format *.tab* file, DBServer may cannot start correctly.
-### Although TAs mention throwing exception while constructing is bad practice, but I think it's better not to change the DBServer structure :D
+# DataBase Project 
+## Univeristy of Bristol mini project
 
 ## Data Structure
 ### The Data Structure has 3 layers of classes. *DataTree* is the top control node, it maps the *DataBase* with DBName. *DataBase* also a TreeMap that store different *DataTable*. *DataTable* using the LinkedHashMap() to store every piece of data.
