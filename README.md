@@ -1,5 +1,5 @@
 # DataBase Project 
-## Univeristy of Bristol mini project
+### Univeristy of Bristol mini project
 
 ## Data Structure
 ### The Data Structure has 3 layers of classes. *DataTree* is the top control node, it maps the *DataBase* with DBName. *DataBase* also a TreeMap that store different *DataTable*. *DataTable* using the LinkedHashMap() to store every piece of data.
