@@ -2,7 +2,6 @@
 A database project written on native Java. It contain a **Recursive Descent Parser** parse the SQL style query language, generating Abstract Syntax Tree data structure to **fully functional interpreter**, which combine with well layered data structure to store data, and R/W local data with native java IO. 
 
 It support the following command:
-The query language we shall use for this purpose supports the following main types of query:
 
 * USE: changes the database against which the following queries will be run
 * CREATE: constructs a new database or table (depending on the provided parameters)
