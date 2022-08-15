@@ -19,7 +19,7 @@ It support the following command:
 * DROP: removes a specified table from a database, or removes the entire database
 * JOIN: performs an inner join on two tables (returning all permutations of all matching records)
 
-Full BNF grammar here: [ BNF](https://github.com/Cheong43/MyLittleQuery)
+Full BNF grammar here: [ BNF](https://github.com/Cheong43/MyLittleQuery/blob/main/BNF.txt)
 
 
 The main body is the server side of project, but it also include a simple local client running on command line with JVM.
