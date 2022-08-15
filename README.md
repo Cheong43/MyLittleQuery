@@ -1,5 +1,11 @@
 # My Little Query📊
-A database project written on native Java. It contain a **Recursive Descent Parser** parse the SQL style query language, generating Abstract Syntax Tree data structure to **fully functional interpreter**, which combine with well layered data structure to store data, and R/W local data with native java IO. 
+A database server project written on native Java. It contain a **Recursive Descent Parser** parse the SQL style query language, generating Abstract Syntax Tree data structure to **fully functional interpreter**, which combine with well layered data structure to store data, and R/W local data with native java IO. 
+
+- Recursive descent Parser
+- Datatype detection and build-in Datatype System
+- Recursive AST supportted Interpreter
+- MVC style data container
+- Binary File Read/Write in custom .tab file ( which means a table diagram!)
 
 It support the following command:
 
