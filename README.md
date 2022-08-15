@@ -1,5 +1,5 @@
 # My Little Query📊
-A database project written on native Java. It contain a **Recursive Descent Parser** parse the SQL style query language, generating Abstract Syntax Tree data structure to **fully funcational interpreter**; it read and write local data with native java IO. 
+A database project written on native Java. It contain a **Recursive Descent Parser** parse the SQL style query language, generating Abstract Syntax Tree data structure to **fully funcational interpreter**, which combine with well layered data structure to store data, and R/W local data with native java IO. 
 
 It support the following command:
 The query language we shall use for this purpose supports the following main types of query:
