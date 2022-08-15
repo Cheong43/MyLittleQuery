@@ -1,5 +1,5 @@
 # My Little Query📊
-A database project written on native Java. It contain a Recursive Descent Parser parse the SQL style query language, generating Abstract Syntax Tree data structure to fully funcational interpreter; it read and write local data with native java IO. 
+A database project written on native Java. It contain a **Recursive Descent Parser** parse the SQL style query language, generating Abstract Syntax Tree data structure to **fully funcational interpreter**; it read and write local data with native java IO. 
 
 It support the following command:
 The query language we shall use for this purpose supports the following main types of query:
@@ -14,8 +14,12 @@ The query language we shall use for this purpose supports the following main typ
 * DROP: removes a specified table from a database, or removes the entire database
 * JOIN: performs an inner join on two tables (returning all permutations of all matching records)
 
+Full BNF grammar here: [ BNF](https://github.com/Cheong43/MyLittleQuery)
+
+
 The main body is the server side of project, but it also include a simple local client running on command line with JVM.
 
+## More...
 
 ### Data Structure
 The Data Structure has 3 layers of classes. *DataTree* is the top control node, it maps the *DataBase* with DBName. *DataBase* also a TreeMap that store different *DataTable*. *DataTable* using the LinkedHashMap() to store every piece of data.
@@ -35,7 +39,7 @@ The Data Structure has 3 layers of classes. *DataTree* is the top control node, 
 ### Exception
 *QueryException* responible for every wrong user input error, then feedback to *DBClient*. But for *DBException*, if it was invoke, basically the data structure and file system is not stable and safe anymore.
 
-### More..
+### things maybe should know
 *DataNullCell* is a class "represent" the NULL value inside the table.
 *ToolBox* class include a useful data convert method to IO, parser and interpreter.
   
