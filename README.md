@@ -18,6 +18,7 @@ It support the following command:
 * DELETE: removes records that match the given condition from an existing table
 * DROP: removes a specified table from a database, or removes the entire database
 * JOIN: performs an inner join on two tables (returning all permutations of all matching records)
+*  ......
 
 Full BNF grammar here: [ BNF](https://github.com/Cheong43/MyLittleQuery/blob/main/BNF.txt)
 
