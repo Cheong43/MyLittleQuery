@@ -27,7 +27,7 @@ The main body is the server side of project, but it also include a simple local 
 ## More...
 
 ### Data Structure
-The Data Structure has 3 layers of classes. *DataTree* is the top control node, it maps the *DataBase* with DBName. *DataBase* also a TreeMap that store different *DataTable*. *DataTable* using the LinkedHashMap() to store every piece of data.
+The Data Structure has 3 layers of classes. *DataTree* is the top control node, it maps the *DataBase* with DBName. *DataBase* also a TreeMap that store different *DataTable*. *DataTable* using the LinkedHashMap() to store every piece of data -- to make every piece of data remain order while quick indexing!.
 
 ### IO
 *DBServerIO* is like a steering wheel of *DBTableIO* : *DBServerIO* manage the entire file system, and *DBTableIO* focus on particular *.tab* file execution.
