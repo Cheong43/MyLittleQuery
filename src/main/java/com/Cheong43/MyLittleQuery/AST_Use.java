@@ -1,6 +1,4 @@
-package edu.uob;
-
-import static edu.uob.AST.ASType.USE;
+package com.Cheong43.MyLittleQuery;
 
 public class AST_Use extends AST {
 
@@ -8,12 +6,12 @@ public class AST_Use extends AST {
 
     public AST_Use(String dataBase) {
         this.dataBase = dataBase;
-        this.ASType = USE;
+        this.ASType = AST.ASType.USE;
     }
 
     @Override
     public ASType getASType() {
-        return USE;
+        return AST.ASType.USE;
     }
 
     @Override

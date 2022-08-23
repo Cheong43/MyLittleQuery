@@ -1,8 +1,6 @@
-package edu.uob;
+package com.Cheong43.MyLittleQuery;
 
 import java.util.ArrayList;
-
-import static edu.uob.AST.ASType.SELECT;
 
 public class AST_Select extends AST {
 
@@ -12,7 +10,7 @@ public class AST_Select extends AST {
     public boolean isAllAttribute;
 
     public AST_Select() {
-        this.ASType = SELECT;
+        this.ASType = AST.ASType.SELECT;
         this.isAllAttribute = false;
         this.attributeList = new ArrayList<>();
     }

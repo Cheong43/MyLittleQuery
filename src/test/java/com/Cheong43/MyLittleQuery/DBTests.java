@@ -1,4 +1,4 @@
-package edu.uob;
+package com.Cheong43.MyLittleQuery;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

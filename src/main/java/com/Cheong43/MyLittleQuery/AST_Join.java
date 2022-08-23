@@ -1,6 +1,4 @@
-package edu.uob;
-
-import static edu.uob.AST.ASType.JOIN;
+package com.Cheong43.MyLittleQuery;
 
 public class AST_Join extends AST {
 
@@ -10,7 +8,7 @@ public class AST_Join extends AST {
     public String rightAttribute;
 
     public AST_Join() {
-        this.ASType = JOIN;
+        this.ASType = AST.ASType.JOIN;
     }
 
     public void setLeftAttribute(String leftAttribute) {

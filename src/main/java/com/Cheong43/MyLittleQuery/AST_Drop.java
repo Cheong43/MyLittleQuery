@@ -1,8 +1,8 @@
-package edu.uob;
+package com.Cheong43.MyLittleQuery;
 
-import static edu.uob.AST.ASType.DROP;
-import static edu.uob.AST.DROP_MODE.DATABASE;
-import static edu.uob.AST.DROP_MODE.TABLE;
+import static com.Cheong43.MyLittleQuery.AST.ASType.DROP;
+import static com.Cheong43.MyLittleQuery.AST.DROP_MODE.DATABASE;
+import static com.Cheong43.MyLittleQuery.AST.DROP_MODE.TABLE;
 
 public class AST_Drop extends AST {
 

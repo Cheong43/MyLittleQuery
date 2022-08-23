@@ -1,10 +1,10 @@
-package edu.uob;
+package com.Cheong43.MyLittleQuery;
 
 import java.util.ArrayList;
 
-import static edu.uob.AST.ASType.CREATE;
-import static edu.uob.AST.CREATE_MODE.DATABASE;
-import static edu.uob.AST.CREATE_MODE.TABLE;
+import static com.Cheong43.MyLittleQuery.AST.ASType.CREATE;
+import static com.Cheong43.MyLittleQuery.AST.CREATE_MODE.DATABASE;
+import static com.Cheong43.MyLittleQuery.AST.CREATE_MODE.TABLE;
 
 public class AST_Create extends AST {
 

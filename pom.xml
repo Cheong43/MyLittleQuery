@@ -4,9 +4,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cw-db</artifactId>
-    <groupId>edu.uob</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>MyLittleDB</artifactId>
+    <groupId>com.Cheong43</groupId>
+    <version>1.0</version>
 
     <packaging>jar</packaging>
 
@@ -66,7 +66,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                    <mainClass>edu.uob.DBServer</mainClass>
+                    <mainClass>com.Cheong43.MyLittleQuery.DBServer</mainClass>
                 </configuration>
             </plugin>
 

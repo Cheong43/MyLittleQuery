@@ -1,4 +1,4 @@
-package edu.uob;
+package com.Cheong43.MyLittleQuery;
 
 public class ToolBox {
 

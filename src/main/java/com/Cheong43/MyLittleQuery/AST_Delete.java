@@ -1,6 +1,6 @@
-package edu.uob;
+package com.Cheong43.MyLittleQuery;
 
-import static edu.uob.AST.ASType.DELETE;
+import static com.Cheong43.MyLittleQuery.AST.ASType.DELETE;
 
 public class AST_Delete extends AST {
 

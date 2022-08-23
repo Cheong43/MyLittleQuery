@@ -1,8 +1,8 @@
-package edu.uob;
+package com.Cheong43.MyLittleQuery;
 
 import java.util.ArrayList;
 
-import static edu.uob.AST.ASType.UPDATE;
+import static com.Cheong43.MyLittleQuery.AST.ASType.UPDATE;
 
 public class AST_Update extends AST {
 

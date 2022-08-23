@@ -1,8 +1,6 @@
-package edu.uob;
+package com.Cheong43.MyLittleQuery;
 
 import java.util.ArrayList;
-
-import static edu.uob.AST.ASType.INSERT;
 
 public class AST_Insert extends AST {
 
@@ -10,7 +8,7 @@ public class AST_Insert extends AST {
     public ArrayList<Object> valueList;
 
     public AST_Insert(String table) {
-        this.ASType = INSERT;
+        this.ASType = AST.ASType.INSERT;
         this.table = table;
         this.valueList = new ArrayList<>();
     }

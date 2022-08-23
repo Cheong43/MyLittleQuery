@@ -1,4 +1,4 @@
-package edu.uob;
+package com.Cheong43.MyLittleQuery;
 
 public abstract class AST {
 
@@ -78,7 +78,7 @@ public abstract class AST {
         }
     }
 
-    public ASType ASType;
+    public static ASType ASType;
 
     public abstract ASType getASType();
 

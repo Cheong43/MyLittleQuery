@@ -1,8 +1,4 @@
-package edu.uob;
-
-import static edu.uob.AST.ALTER_TYPE.ADD;
-import static edu.uob.AST.ALTER_TYPE.DROP;
-import static edu.uob.AST.ASType.ALTER;
+package com.Cheong43.MyLittleQuery;
 
 public class AST_Alter extends AST {
 
@@ -11,16 +7,16 @@ public class AST_Alter extends AST {
     public String attribute;
 
     public AST_Alter() {
-        this.ASType = ALTER;
+        this.ASType = AST.ASType.ALTER;
     }
 
     public void setAlterType(String alterType) {
         switch (alterType) {
             case "ADD":
-                this.alterType = ADD;
+                this.alterType = ALTER_TYPE.ADD;
                 break;
             case "DROP":
-                this.alterType = DROP;
+                this.alterType = ALTER_TYPE.DROP;
                 break;
             default:
                 //error
