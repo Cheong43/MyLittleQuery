@@ -48,4 +48,64 @@ The Data Structure has 3 layers of classes. *DataTree* is the top control node, 
 ### things maybe should know
 *DataNullCell* is a class "represent" the NULL value inside the table.
 *ToolBox* class include a useful data convert method to IO, parser and interpreter.
-  
+
+
+# Example
+### Create a database
+``` sql
+CREATE DATABASE testDB;
+USE testDB;
+CreaTE tabLE actors;
+AlTER tablE actors AdD name;
+AlTER tablE actors AdD age;
+INSert iNtO actors ValuES('alex', 18);
+INSert iNtO actors ValuES('mike', 26);
+INSert iNtO actors ValuES('Amy', 1, true);
+AlTER tablE actors AdD married;
+INSert iNtO actors ValuES('Amy', 1, true);
+UpDate actors Set married = false where id < 3;
+
+SELECT * FROM actors;
+```
+output:
+``` txt
+[OK]
+id name age married
+1 alex 18 false
+2 mike 26 false
+3 Amy 1 true
+```
+
+
+### Join
+Given the following tables:
+Table: coursework
+``` txt
+id	course_name	grade
+1	Math	A
+2	Science	B
+3	History	A
+
+
+Table: marks
+
+id	student_name	age	married
+1	Alex	18	false
+2	Mike	26	false
+3	Amy	1	true
+
+```
+that is, the coursework table contains the course name and grade for each course, and the marks table contains the student name, age and marital status for each student.
+``` sql
+SELECT coursework.*, marks.student_name, marks.age, marks.married
+FROM coursework
+JOIN marks ON coursework.id = marks.id
+```
+
+Resulting joined table:
+``` txt
+id	course_name	grade	student_name	age	married
+1	Math	A	Alex	18	false
+2	Science	B	Mike	26	false
+3	History	A	Amy	1	true
+```  
